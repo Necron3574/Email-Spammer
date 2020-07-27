@@ -5,7 +5,7 @@
 - Python3  
 ### Set-up  
 - Clone into this repository using `git clone https://github.com/Necron3574/Email-Spammer.git`  
-- After cloning move into the email spammer directory `cd Email-Spammer` and the setup is complete.  
+- After cloning, move into the email spammer directory `cd Email-Spammer` and the setup is complete.  
 ### Usage  
 - To run the program use the command `python3 Email_spammer.py  [-sid] [-rid] [-sn]`  
 - This program takes 3 arguments:  
@@ -20,7 +20,8 @@
 - After this step the program will begin sending messages to all the people in your list.
 ### Example
 `python3 Email_Spammer.py -sid myemail@gmail.com -rid receiver1@gmail.com,receiver2@gmail.com -sn 2`
-Shell
+
+**Shell**
 ```
 The sender's email address is myemail@gmail.com
 Password:
