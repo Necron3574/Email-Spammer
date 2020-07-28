@@ -19,7 +19,7 @@
 - You can write it in a multiline format and press ENTER twice to end the mail.
 - After this step the program will begin sending messages to all the people in your list.
 ### Example
-`python3 Email_Spammer.py -sid myemail@gmail.com -rid receiver1@gmail.com,receiver2@gmail.com -sn 2`
+`$ python3 Email_Spammer.py -sid myemail@gmail.com -rid receiver1@gmail.com,receiver2@gmail.com -sn 2`
 
 **Shell**
 ```
