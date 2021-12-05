@@ -15,8 +15,7 @@ def Email_sender(sender,list_of_receivers,password,message,number_of_messages):
                 with smtplib.SMTP_SSL("smtp.gmail.com", port, context = ssl.create_default_context()) as server:
                     server.login(sender, password)
                     server.sendmail(sender,receiver,message)
-                    print('Process Completed.')
-                    print('Ending Script.')
+                    print('Mail Sent')
     else:
         print("Incorrect email ID.")
         print("This program only supports the gmail smtp service.")
@@ -57,3 +56,4 @@ print("Please enter the contents of your email in multiline format.")
 print("To end the mail please press ENTER twice.")
 message = entermessage()
 Email_sender(sender,list_of_receivers,password,message,number_of_messages)
+print('Ending Script')
